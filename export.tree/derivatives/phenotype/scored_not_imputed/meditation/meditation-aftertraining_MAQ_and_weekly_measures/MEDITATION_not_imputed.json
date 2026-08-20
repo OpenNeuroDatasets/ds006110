@@ -1,0 +1,200 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Meditation Weekly Sessions and Duration"
+  },
+  "MEDITATION_WEEKLY_PRACTICE": {
+    "Items": [
+      "MED_SESSIONS",
+      "MED_SESSIONDURATION"
+    ],
+    "Operations": "product",
+    "Description": "How many minutes spent meditating per week",
+    "Derivative": true
+  },
+  "MEDITATION_ANXIOUS": {
+    "Items": "MED_ANX",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_CONTENT": {
+    "Items": "MED_CONTENT",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_FACEDIFFICULTY": {
+    "Items": "MED_FACEDIFFICULTY",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_IMPROVING": {
+    "Items": "MED_IMPROVING",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_IMPROVING_FREE": {
+    "Items": "MED_IMPROVING_FREE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_INTEREST": {
+    "Items": "MED_INTEREST",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_STRATEGIES": {
+    "Items": "MED_STRATEGIES",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_STRATEGIES_FREE": {
+    "Items": "MED_STRATEGIES_FREE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_STRESSED": {
+    "Items": "MED_STRESSED",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_THOUGHTS": {
+    "Items": "MED_THOUGHTS",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_THOUGHTVSBODY": {
+    "Items": "MED_THOUGHTVSBODY",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_WORSE": {
+    "Items": "MED_WORSE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_WORSE_FREE": {
+    "Items": "MED_WORSE_FREE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_ANX": {
+    "Items": "BELIEF_ANX",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_CONTENT": {
+    "Items": "BELIEF_CONTENT",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_INTEREST": {
+    "Items": "BELIEF_INTEREST",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_MENTAL": {
+    "Items": "BELIEF_MENTAL",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_PHYSICAL": {
+    "Items": "BELIEF_PHYSICAL",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_BELIEF_STRESSED": {
+    "Items": "BELIEF_STRESSED",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_BEGINNER": {
+    "Items": "MINDSET_BEGINNER",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_LETGO": {
+    "Items": "MINDSET_LETGO",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_NONJUDGE": {
+    "Items": "MINDSET_NONJUDGE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_NONSTRIVE": {
+    "Items": "MINDSET_NONSTRIVE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_PATIENCE": {
+    "Items": "MINDSET_PATIENCE",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_MINDSET_TRUST": {
+    "Items": "MINDSET_TRUST",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_ANX": {
+    "Items": "OVERALL_ANX",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_CONTENT": {
+    "Items": "OVERALL_CONTENT",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_INTEREST": {
+    "Items": "OVERALL_INTEREST",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_MENTAL": {
+    "Items": "OVERALL_MENTAL",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_PHYSICAL": {
+    "Items": "OVERALL_PHYSICAL",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MEDITATION_OVERALL_STRESSED": {
+    "Items": "OVERALL_STRESSED",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"TaskName": "series",
+	"TaskDescription": "Series of four conditions: movie, rest, meditation, music",
+	"EEGReference": "single electrode placed on FCz",
+	"SamplingFrequency": 500,
+	"PowerLineFrequency": 50,
+	"SoftwareFilters": "n/a",
+	"SoftwareVersions": "1.22.0001",
+	"CapManufacturer": "Brain Products",
+	"CapManufacturersModelName": "actiCAP slim 64 Ch",
+	"EEGChannelCount": 64,
+	"RecordingType": "continuous",
+	"EEGPlacementScheme": "10 percent system",
+	"InstitutionName": "Monash Biomedical Imaging",
+	"InstitutionAddress": "770 Blackburn Road, Building 220, Monash University, Clayton, VIC 3800, Australia"
+}

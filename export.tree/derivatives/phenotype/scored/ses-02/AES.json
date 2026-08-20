@@ -1,0 +1,29 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Aesthetic Experiences Scale in Music (AES-M)",
+    "TermURL": "https://doi.org/10.1093/scan/nsw009"
+  },
+  "AES_MUSIC": {
+    "Items": [
+      "AES_M_1",
+      "AES_M_2",
+      "AES_M_3",
+      "AES_M_4",
+      "AES_M_5",
+      "AES_M_6",
+      "AES_M_7",
+      "AES_M_8",
+      "AES_M_9",
+      "AES_M_10",
+      "AES_M_11",
+      "AES_M_12",
+      "AES_M_13",
+      "AES_M_14",
+      "AES_M_15"
+    ],
+    "Operations": "mean",
+    "Description": "AES-M Scale Score",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}
