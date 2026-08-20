@@ -1,0 +1,108 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Meditation Depth Questionnaire (MEDEQ)",
+    "TermURL": "Piron, H. (2001). The meditation depth index (MEDI) and the meditation depth questionnaire (MEDEQ). Journal for Meditation and Meditation Research,1(1), 69-92."
+  },
+  "MEDEQ_HINDER": {
+    "Items": [
+      "MEDEQ_1",
+      "MEDEQ_4",
+      "MEDEQ_9",
+      "MEDEQ_12",
+      "MEDEQ_13",
+      "MEDEQ_18"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Hinderences Subscale",
+    "Derivative": true
+  },
+  "MEDEQ_RELAX": {
+    "Items": [
+      "MEDEQ_3",
+      "MEDEQ_8",
+      "MEDEQ_17",
+      "MEDEQ_20"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Relaxation Subscale",
+    "Derivative": true
+  },
+  "MEDEQ_CONCENTRATE": {
+    "Items": [
+      "MEDEQ_2",
+      "MEDEQ_5",
+      "MEDEQ_10",
+      "MEDEQ_14",
+      "MEDEQ_21",
+      "MEDEQ_29"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Concentration Subscale",
+    "Derivative": true
+  },
+  "MEDEQ_QUALTIES": {
+    "Items": [
+      "MEDEQ_11",
+      "MEDEQ_15",
+      "MEDEQ_19",
+      "MEDEQ_22",
+      "MEDEQ_24",
+      "MEDEQ_27",
+      "MEDEQ_28",
+      "MEDEQ_30"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Essenital Qualities Subscale",
+    "Derivative": true
+  },
+  "MEDEQ_NONDUAL": {
+    "Items": [
+      "MEDEQ_6",
+      "MEDEQ_7",
+      "MEDEQ_16",
+      "MEDEQ_23",
+      "MEDEQ_25",
+      "MEDEQ_26"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Nonduality Subscale",
+    "Derivative": true
+  },
+  "MEDEQ_TOTAL": {
+    "Items": [
+      "MEDEQ_MEDEQ_1_reversed",
+      "MEDEQ_2",
+      "MEDEQ_3",
+      "MEDEQ_MEDEQ_4_reversed",
+      "MEDEQ_5",
+      "MEDEQ_6",
+      "MEDEQ_7",
+      "MEDEQ_8",
+      "MEDEQ_MEDEQ_9_reversed",
+      "MEDEQ_10",
+      "MEDEQ_11",
+      "MEDEQ_MEDEQ_12_reversed",
+      "MEDEQ_MEDEQ_13_reversed",
+      "MEDEQ_14",
+      "MEDEQ_15",
+      "MEDEQ_16",
+      "MEDEQ_17",
+      "MEDEQ_MEDEQ_18_reversed",
+      "MEDEQ_19",
+      "MEDEQ_20",
+      "MEDEQ_21",
+      "MEDEQ_22",
+      "MEDEQ_23",
+      "MEDEQ_24",
+      "MEDEQ_25",
+      "MEDEQ_26",
+      "MEDEQ_27",
+      "MEDEQ_28",
+      "MEDEQ_29",
+      "MEDEQ_30"
+    ],
+    "Operations": "sum",
+    "Description": "MEDEQ Total Meditation Depth Score",
+    "Derivative": true
+  }
+}

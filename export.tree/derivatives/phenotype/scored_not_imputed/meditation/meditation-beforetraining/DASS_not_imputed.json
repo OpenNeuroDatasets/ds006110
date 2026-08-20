@@ -1,0 +1,48 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Depression, Anxiety, Stress Scale (DASS-21)",
+    "TermURL": "https://doi.org/10.1037/t01004-000"
+  },
+  "DASS_DEPRESSION": {
+    "Items": [
+      "DASS_21_3",
+      "DASS_21_5",
+      "DASS_21_10",
+      "DASS_21_13",
+      "DASS_21_16",
+      "DASS_21_17",
+      "DASS_21_21"
+    ],
+    "Operations": "sum",
+    "Description": "DASS-21 Depression subscale",
+    "Derivative": true
+  },
+  "DASS_ANXIETY": {
+    "Items": [
+      "DASS_21_2",
+      "DASS_21_4",
+      "DASS_21_7",
+      "DASS_21_9",
+      "DASS_21_15",
+      "DASS_21_19",
+      "DASS_21_20"
+    ],
+    "Operations": "sum",
+    "Description": "DASS-21 Anxiety subcale",
+    "Derivative": true
+  },
+  "DASS_STRESS": {
+    "Items": [
+      "DASS_21_1",
+      "DASS_21_6",
+      "DASS_21_8",
+      "DASS_21_11",
+      "DASS_21_12",
+      "DASS_21_14",
+      "DASS_21_18"
+    ],
+    "Operations": "sum",
+    "Description": "DASS-21 Stress subscale",
+    "Derivative": true
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "11-Dimension Altered States of Consciousness (11D-ASC), coding to match survey order in ses-01",
+    "TermURL": "https://doi.org/10.1371/journal.pone.0012412"
+  },
+  "ASC11_ANXIETY": {
+    "Items": [
+      "DASC_ses01_13",
+      "DASC_ses01_20",
+      "DASC_ses01_21",
+      "DASC_ses01_22",
+      "DASC_ses01_27",
+      "DASC_ses01_40"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Anxiety Subscale",
+    "Derivative": true
+  },
+  "ASC11_AUDIOVISUAL": {
+    "Items": [
+      "DASC_ses01_6",
+      "DASC_ses01_14",
+      "DASC_ses01_34"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Audiovisual Synthesis Subscale",
+    "Derivative": true
+  },
+  "ASC11_BLISSFUL": {
+    "Items": [
+      "DASC_ses01_3",
+      "DASC_ses01_39",
+      "DASC_ses01_41"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Blissful State Subscale",
+    "Derivative": true
+  },
+  "ASC11_COMPLEX": {
+    "Items": [
+      "DASC_ses01_17",
+      "DASC_ses01_33",
+      "DASC_ses01_38"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Complex Imagery Subscale",
+    "Derivative": true
+  },
+  "ASC11_PERCEPTS": {
+    "Items": [
+      "DASC_ses01_11",
+      "DASC_ses01_12",
+      "DASC_ses01_26"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Changing Meaning of Percepts Subscale",
+    "Derivative": true
+  },
+  "ASC11_DISEMBODY": {
+    "Items": [
+      "DASC_ses01_9",
+      "DASC_ses01_28",
+      "DASC_ses01_29"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Disembodiment Subscale",
+    "Derivative": true
+  },
+  "ASC11_ELEMENTARY": {
+    "Items": [
+      "DASC_ses01_4",
+      "DASC_ses01_7",
+      "DASC_ses01_14"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Elementary Imagery Subscale",
+    "Derivative": true
+  },
+  "ASC11_UNITY": {
+    "Items": [
+      "DASC_ses01_5",
+      "DASC_ses01_15",
+      "DASC_ses01_18",
+      "DASC_ses01_19",
+      "DASC_ses01_25"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Experience of Unity Subscale",
+    "Derivative": true
+  },
+  "ASC11_INSIGHTFUL": {
+    "Items": [
+      "DASC_ses01_24",
+      "DASC_ses01_32",
+      "DASC_ses01_35"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Insightfulness Subscale",
+    "Derivative": true
+  },
+  "ASC11_COGNITION": {
+    "Items": [
+      "DASC_ses01_1",
+      "DASC_ses01_10",
+      "DASC_ses01_16",
+      "DASC_ses01_23",
+      "DASC_ses01_30",
+      "DASC_ses01_31",
+      "DASC_ses01_36"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Impaired Cognition and Control Subscale",
+    "Derivative": true
+  },
+  "ASC11_SPIRITUAL": {
+    "Items": [
+      "DASC_ses01_2",
+      "DASC_ses01_37",
+      "DASC_ses01_42"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "11D-ASC Spiritual Experience Subscale",
+    "Derivative": true
+  },
+  "ASC11_COMPOSITE_SENSORY_AUDIOVISUAL_COMPLEX_ELEMENTARY": {
+    "Items": [
+      "ASC11_AUDIOVISUAL",
+      "ASC11_COMPLEX",
+      "ASC11_ELEMENTARY"
+    ],
+    "Operations": "mean",
+    "Description": "Mean of 11D-ASC Subscales: AUDIOVISUAL, COMPLEX (IMAGERY), ELEMENTARY",
+    "Derivative": true
+  },
+  "ASC11_COMPOSITE_ASSOCIATIVE_BLISFFUL_UNITY_SPIRITUAL": {
+    "Items": [
+      "ASC11_BLISSFUL",
+      "ASC11_UNITY",
+      "ASC11_SPIRITUAL"
+    ],
+    "Operations": "mean",
+    "Description": "Mean of 11D-ASC Subscales: BLISSFUL, UNITY, SPIRITUAL",
+    "Derivative": true
+  },
+  "ASC11_COMPOSITE_BLISSFUL_UNITY": {
+    "Items": [
+      "ASC11_BLISSFUL",
+      "ASC11_UNITY"
+    ],
+    "Operations": "mean",
+    "Description": "Mean of 11D-ASC Subscales: BLISSFUL, UNITY",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}

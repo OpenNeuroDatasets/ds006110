@@ -1,0 +1,17 @@
+{
+  "PulseSequenceType": "MPRAGE",
+  "AcquisitionVoxelSize": [1.0, 1.0, 1.0],
+  "MatrixSize": [256, 240, 192],
+  "ParallelAcquisitionTechnique": "GRAPPA",
+  "SpoilingState": true,
+  "SpoilingType": "RF",
+  "WaterSuppression": false,
+  "WaterSuppressionTechnique": "None",
+  "PhaseEncodingDirection": "j",
+  "PartialFourierDirection": "None",
+  "EffectiveEchoSpacing": 0.0063,
+  "B0ShimmingTechnique": "Tune up",
+  "B1ShimmingTechnique": "TrueForm",
+  "CoilCombinationMethod": "Adaptive Combine",
+  "MatrixCoilMode": "Adaptive Combine"
+}

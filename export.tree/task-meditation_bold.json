@@ -1,0 +1,37 @@
+{
+  "TaskName": "meditation",
+  "TaskDescription": "Guided meditation",
+  "Instructions": "Eyes closed",
+  "RepetitionTime": 0.91,
+  "PulseSequenceType": "EPI (CMRR mbep2d BOLD)",
+  "ParallelAcquisitionTechnique": "GRAPPA",
+  "AcquisitionVoxelSize": [
+    3.21875,
+    3.21875,
+    3.2
+  ],
+  "MatrixSize": [
+    64,
+    64,
+    40
+  ],
+  "PartialFourierDirection": "None",
+  "WaterSuppression": false,
+  "WaterSuppressionTechnique": "None",
+  "CoilCombinationMethod": "Sum of Squares",
+  "B0ShimmingTechnique": "Standard",
+  "B1ShimmingTechnique": "TrueForm",
+  "MRTransmitCoilSequence": "Body",
+  "NumberShots": 1,
+  "ParallelReductionFactorOutOfPlane": 1,
+  "SliceEncodingDirection": "k",
+  "GradientSetType": "Fast",
+  "MatrixCoilMode": "Sum of Squares",
+  "MTState": false,
+  "SpoilingState": false,
+  "MultibandAccelerationFactor": 4,
+  "NumberOfVolumesDiscardedByScanner": 0,
+  "NumberOfVolumesDiscardedByUser": 0,
+  "DelayTime": 0,
+  "DelayAfterTrigger": 0
+}
