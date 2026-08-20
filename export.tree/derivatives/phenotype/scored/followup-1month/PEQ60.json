@@ -1,0 +1,143 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Persisting Effects Questionnaire Revised (PEQ60)",
+    "TermURL": "https://doi.org/10.1007/s00213-006-0457-5"
+  },
+  "PEQ60_POSATTITUDE": {
+    "Items": [
+      "PEQ60_1",
+      "PEQ60_6",
+      "PEQ60_13",
+      "PEQ60_15",
+      "PEQ60_18",
+      "PEQ60_19",
+      "PEQ60_28",
+      "PEQ60_29",
+      "PEQ60_31",
+      "PEQ60_34",
+      "PEQ60_37",
+      "PEQ60_39",
+      "PEQ60_41",
+      "PEQ60_46",
+      "PEQ60_47",
+      "PEQ60_49",
+      "PEQ60_59"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Positive Attitudes About Life or Self Subscale",
+    "Derivative": true
+  },
+  "PEQ60_NEGATTITUDE": {
+    "Items": [
+      "PEQ60_2",
+      "PEQ60_5",
+      "PEQ60_14",
+      "PEQ60_16",
+      "PEQ60_17",
+      "PEQ60_20",
+      "PEQ60_27",
+      "PEQ60_30",
+      "PEQ60_32",
+      "PEQ60_33",
+      "PEQ60_38",
+      "PEQ60_40",
+      "PEQ60_41",
+      "PEQ60_45",
+      "PEQ60_48",
+      "PEQ60_50",
+      "PEQ60_60"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Negative Attitudes About Life or Self Subscale",
+    "Derivative": true
+  },
+  "PEQ60_POSMOOD": {
+    "Items": [
+      "PEQ60_12",
+      "PEQ60_24",
+      "PEQ60_43",
+      "PEQ60_58"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Positive Mood Change Subscale",
+    "Derivative": true
+  },
+  "PEQ60_NEGMOOD": {
+    "Items": [
+      "PEQ60_11",
+      "PEQ60_23",
+      "PEQ60_44",
+      "PEQ60_57"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Negative Mood Change Subscale",
+    "Derivative": true
+  },
+  "PEQ60_POSEFFECTS": {
+    "Items": [
+      "PEQ60_3",
+      "PEQ60_9",
+      "PEQ60_21",
+      "PEQ60_25",
+      "PEQ60_36",
+      "PEQ60_52",
+      "PEQ60_54",
+      "PEQ60_56"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Positive Social Effects Subscale",
+    "Derivative": true
+  },
+  "PEQ60_NEGEFFECTS": {
+    "Items": [
+      "PEQ60_4",
+      "PEQ60_10",
+      "PEQ60_22",
+      "PEQ60_26",
+      "PEQ60_35",
+      "PEQ60_51",
+      "PEQ60_53",
+      "PEQ60_55"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Negative Social Effects Subscale",
+    "Derivative": true
+  },
+  "PEQ60_POSBEHAV": {
+    "Items": "PEQ60_8",
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Positive Behavioural Change Subscale",
+    "Derivative": true
+  },
+  "PEQ60_NEGBEHAV": {
+    "Items": "PEQ60_7",
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Negative Behavioural Change Subscale",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}

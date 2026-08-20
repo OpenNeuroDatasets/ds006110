@@ -1,0 +1,20 @@
+{
+  "PulseSequenceType": "SPACE (TSE-VFL)",
+  "ParallelAcquisitionTechnique": "GRAPPA",
+  "AcquisitionVoxelSize": [1.0, 1.0, 1.0],
+  "MatrixSize": [256, 256, 176],
+  "EffectiveEchoSpacing": 0.0035,
+  "TotalReadoutTime": 0.854,
+  "B0ShimmingTechnique": "Tune up",
+  "B1ShimmingTechnique": "TrueForm",
+  "WaterSuppression": false,
+  "WaterSuppressionTechnique": "None",
+  "CoilCombinationMethod": "Adaptive Combine",
+  "MatrixCoilMode": "Adaptive Combine",
+  "MRTransmitCoilSequence": "Body",
+  "MTState": false,
+  "SpoilingState": true,
+  "NumberShots": 1,
+  "ParallelReductionFactorOutOfPlane": 1,
+  "PartialFourierDirection": "j"
+}

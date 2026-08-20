@@ -1,0 +1,15 @@
+{
+  "MOSTMEANING_PT1": {
+    "Items": "EXP_MOSTMEANING_PT1",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "MOSTMEANING_PT2": {
+    "Items": "EXP_MOSTMEANING_PT2",
+    "Operations": [],
+    "Description": "",
+    "Derivative": false
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}
