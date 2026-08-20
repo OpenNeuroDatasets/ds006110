@@ -1,1 +1,0 @@
-Text responses are not disclosed (marked as "nd") in the public release of the raw data.
