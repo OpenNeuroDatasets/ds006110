@@ -1,0 +1,22 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Emotional Breakthrough Inventory (EBI)",
+    "TermURL": "https://doi.org/10.1177/0269881119855974"
+  },
+  "EBI_EBITOTAL": {
+    "Items": [
+      "EBI_1",
+      "EBI_2",
+      "EBI_3",
+      "EBI_4",
+      "EBI_5",
+      "EBI_6"
+    ],
+    "Operations": [
+      "sum",
+      "dividebyitems"
+    ],
+    "Description": "PEQ Positive Attitudes About Life or Self Subscale",
+    "Derivative": true
+  }
+}
