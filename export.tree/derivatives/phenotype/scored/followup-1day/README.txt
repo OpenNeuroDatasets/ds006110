@@ -1,1 +1,0 @@
-For Mindset measure details, see "Psychedelics align brain activity with context" Supplementary Information
