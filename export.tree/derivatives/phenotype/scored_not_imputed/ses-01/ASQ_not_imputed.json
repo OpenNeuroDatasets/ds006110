@@ -1,0 +1,81 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "The Attachment Style Questionnaire (ASQ)",
+    "TermURL": "https://doi.org/10.1037/t29439-000"
+  },
+  "ASQ_CONFIDENCE": {
+    "Items": [
+      "ASQ_1",
+      "ASQ_2",
+      "ASQ_ASQ_3_reversed",
+      "ASQ_19",
+      "ASQ_31",
+      "ASQ_33",
+      "ASQ_37",
+      "ASQ_38"
+    ],
+    "Operations": "sum",
+    "Description": "ASQ Confidence (in self and others) subscale",
+    "Derivative": true
+  },
+  "ASQ_DISCOMFORT": {
+    "Items": [
+      "ASQ_4",
+      "ASQ_5",
+      "ASQ_16",
+      "ASQ_17",
+      "ASQ_ASQ_20_reversed",
+      "ASQ_ASQ_21_reversed",
+      "ASQ_23",
+      "ASQ_25",
+      "ASQ_26",
+      "ASQ_34"
+    ],
+    "Operations": "sum",
+    "Description": "ASQ Discomfort With Closeness subscale",
+    "Derivative": true
+  },
+  "ASQ_RELATSECONDARY": {
+    "Items": [
+      "ASQ_6",
+      "ASQ_7",
+      "ASQ_8",
+      "ASQ_9",
+      "ASQ_10",
+      "ASQ_14",
+      "ASQ_36"
+    ],
+    "Operations": "sum",
+    "Description": "ASQ Relationships as Secondary subscale",
+    "Derivative": true
+  },
+  "ASQ_APPROVAL": {
+    "Items": [
+      "ASQ_11",
+      "ASQ_12",
+      "ASQ_13",
+      "ASQ_15",
+      "ASQ_24",
+      "ASQ_27",
+      "ASQ_35"
+    ],
+    "Operations": "sum",
+    "Description": "ASQ Need for Approval subscale",
+    "Derivative": true
+  },
+  "ASQ_PREOCCUPATION": {
+    "Items": [
+      "ASQ_18",
+      "ASQ_22",
+      "ASQ_28",
+      "ASQ_29",
+      "ASQ_30",
+      "ASQ_32",
+      "ASQ_39",
+      "ASQ_40"
+    ],
+    "Operations": "sum",
+    "Description": "ASQ Preoccupation with Relationships subscale",
+    "Derivative": true
+  }
+}
