@@ -1,0 +1,21 @@
+{
+  "PPQ_PPQ5": {
+    "Description": "Political Perspective Questionnaire (PPQ-5)",
+    "surveys": [
+      "ses-01",
+      "followup-1month",
+      "followup-12month"
+    ],
+    "TermURL": "https://doi.org/10.1080/02791072.2017.1312643",
+    "Items": [
+      "PPQ_5_1",
+      "PPQ_5_2",
+      "PPQ_5_3",
+      "PPQ_5_4",
+      "PPQ_5_5"
+    ],
+    "Operations": "mean",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}
