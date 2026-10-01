@@ -1,0 +1,40 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "The Mindfulness Adherence Questionnaire (MAQ)",
+    "TermURL": "https://doi.org/10.3389/fnagi.2016.00156"
+  },
+  "MAQ_FORMAL": {
+    "Items": [
+      "MAQ_3",
+      "MAQ_4",
+      "MAQ_5",
+      "MAQ_6"
+    ],
+    "Operations": "sum",
+    "Description": "MAQ Quality of Formal Meditation Subscale",
+    "Derivative": true
+  },
+  "MAQ_INFORMAL": {
+    "Items": [
+      "MAQ_7",
+      "MAQ_8",
+      "MAQ_9",
+      "MAQ_10",
+      "MAQ_11",
+      "MAQ_12"
+    ],
+    "Operations": "sum",
+    "Description": "MAQ Quality of Informal (daily life) Meditation Subscale",
+    "Derivative": true
+  },
+  "MAQ_BENEFIT": {
+    "Items": [
+      "MAQ_INFORMAL",
+      "MAQ_FORMAL"
+    ],
+    "Operations": "sum",
+    "Description": "MAQ Benefit of Meditation Subscale",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}

@@ -1,0 +1,84 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Self-Compassion Scale (SCS)",
+    "TermURL": "https://doi.org/10.1080/15298860390209035"
+  },
+  "SCS_KIND": {
+    "Items": [
+      "SCS_5_recoded",
+      "SCS_12_recoded",
+      "SCS_19_recoded",
+      "SCS_23_recoded",
+      "SCS_26_recoded"
+    ],
+    "Operations": "sum",
+    "Description": "SCS Self-kindness Subscale",
+    "Derivative": true
+  },
+  "SCS_JUDGE": {
+    "Items": [
+      "SCS_1_recoded",
+      "SCS_8_recoded",
+      "SCS_11_recoded",
+      "SCS_16_recoded",
+      "SCS_21_recoded"
+    ],
+    "Operations": [
+      "reverse_1_5",
+      "sum"
+    ],
+    "Description": "SCS Self-judgement Subscale",
+    "Derivative": true
+  },
+  "SCS_HUMANITY": {
+    "Items": [
+      "SCS_3_recoded",
+      "SCS_7_recoded",
+      "SCS_10_recoded",
+      "SCS_15_recoded"
+    ],
+    "Operations": "sum",
+    "Description": "SCS Common Humanity Subscale",
+    "Derivative": true
+  },
+  "SCS_ISOLATION": {
+    "Items": [
+      "SCS_4_recoded",
+      "SCS_13_recoded",
+      "SCS_18_recoded",
+      "SCS_25_recoded"
+    ],
+    "Operations": [
+      "reverse_1_5",
+      "sum"
+    ],
+    "Description": "SCS Common Isolation Subscale",
+    "Derivative": true
+  },
+  "SCS_MINDFUL": {
+    "Items": [
+      "SCS_9_recoded",
+      "SCS_14_recoded",
+      "SCS_17_recoded",
+      "SCS_22_recoded"
+    ],
+    "Operations": "sum",
+    "Description": "SCS Mindfulness Subscale",
+    "Derivative": true
+  },
+  "SCS_IDENTIFY": {
+    "Items": [
+      "SCS_2_recoded",
+      "SCS_6_recoded",
+      "SCS_20_recoded",
+      "SCS_24_recoded"
+    ],
+    "Operations": [
+      "reverse_1_5",
+      "sum"
+    ],
+    "Description": "SCS Over-identification Subscale",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}
