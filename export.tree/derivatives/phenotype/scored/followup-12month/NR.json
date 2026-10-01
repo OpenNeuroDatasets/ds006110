@@ -1,0 +1,22 @@
+{
+  "NR_NR6": {
+    "Description": "Nature Relatedness Scale (NR-6)",
+    "surveys": [
+      "ses-01",
+      "followup-1month",
+      "followup-12month"
+    ],
+    "TermURL": "https://doi.org/10.3389/fpsyg.2013.00813",
+    "Items": [
+      "NR_6_1",
+      "NR_6_2",
+      "NR_6_3",
+      "NR_6_4",
+      "NR_6_5",
+      "NR_6_6"
+    ],
+    "Operations": "mean",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}

@@ -1,0 +1,63 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "The Five Facet Mindfulness Questionnaire (FFMQ-SF)",
+    "TermURL": "https://doi.org/10.1002/jclp.21865"
+  },
+  "FFMQ_OBSERVE": {
+    "Items": [
+      "FFMQ_15_1",
+      "FFMQ_15_6",
+      "FFMQ_15_11"
+    ],
+    "Operations": "sum",
+    "Description": "FFMQ Observation Subscale",
+    "Derivative": true
+  },
+  "FFMQ_ACTIONS": {
+    "Items": [
+      "FFMQ_15_3",
+      "FFMQ_15_8",
+      "FFMQ_15_13"
+    ],
+    "Operations": [
+      "reverse_1_5",
+      "sum"
+    ],
+    "Description": "FFMQ Aware Actions Subscale",
+    "Derivative": true
+  },
+  "FFMQ_NONJUDGE": {
+    "Items": [
+      "FFMQ_15_4",
+      "FFMQ_15_9",
+      "FFMQ_15_14"
+    ],
+    "Operations": [
+      "reverse_1_5",
+      "sum"
+    ],
+    "Description": "FFMQ Non-judgemental Experience Subscale",
+    "Derivative": true
+  },
+  "FFMQ_NONREACT": {
+    "Items": [
+      "FFMQ_15_5",
+      "FFMQ_15_10",
+      "FFMQ_15_15"
+    ],
+    "Operations": "sum",
+    "Description": "FFMQ Non-reactivity Subscale",
+    "Derivative": true
+  },
+  "FFMQ_DESCRIPTION": {
+    "Items": [
+      "FFMQ_15_2",
+      "FFMQ_FFMQ_15_7_reversed",
+      "FFMQ_15_12"
+    ],
+    "Operations": "sum",
+    "Description": "FFMQ Description Subscale",
+    "Derivative": true
+  },
+  "imputation_threshold": "Max admissible fraction of missing values used for imputation: e.g. 0 = never imputed, 1 = always imputed; 0.5 = only imputed when <= 50% items were missing from the raw data spreadsheet for a given subscale"
+}
